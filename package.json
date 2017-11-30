@@ -1,0 +1,16 @@
+{
+  "name": "giffer",
+  "version": "1.0.0",
+  "description": "Interactions with the giffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-sdk": "^1.0.21",
+    "bluebird": "^3.5.1",
+    "follow-redirects": "^1.2.6"
+  }
+}

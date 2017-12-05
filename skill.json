@@ -1,0 +1,65 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "GetSubtitleGif",
+        "samples": [
+          "show me a gif of {oh|quote}",
+          "show me a gif of {oh no|quote}",
+          "show me a gif of {fuck|quote}",
+          "show me a gif of {it's a trap|quote}",
+          "show me a gif of {You'll never take me alive|quote}",
+          "show me a gif of {I have the same combination on my luggage|quote}",
+          "show me a gif of {Dishonor on you|quote}",
+          "show me a gif of {Dishonor on your cow|quote}",
+          "show me a gif of {The grid.  A digital frontier|quote}",
+          "show me a gif of {Use the force luke|quote}",
+          "show me a gif of {I am your father|quote}",
+          "show me a gif of {It's gonna blow|quote}",
+          "show me a gif of {what are you talking about|quote}",
+          "show me a gif of {but in the end nothing really matters|quote}",
+          "show me a gif of {say what one more time|quote}",
+          "show me a gif of {uh oh|quote}",
+          "show me a gif of {frankly my dear I don't give a damn|quote}",
+          "show me a gif of {who are you|quote}",
+          "show me a gif of {what are you doing|quote}",
+          "show me a gif of {where are you going|quote}",
+          "show me a gif of {the meaning of life|quote}",
+          "show me a gif of {come and see the violence inherent in the system|quote}",
+          "show me a gif of {help I'm being repressed|quote}",
+          "show me a gif of {so long and thanks for all the fish|quote}",
+          "show me a gif of {the end|quote}",
+          "show me a gif of {game over man|quote}",
+          "show me a gif of {What the|quote}"
+        ],
+        "slots": [
+          {
+            "name": "quote",
+            "type": "AMAZON.LITERAL"
+          }
+        ]
+      },
+      {
+        "name": "test",
+        "samples": [
+          "does this work"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "giffer"
+  }
+}
+
